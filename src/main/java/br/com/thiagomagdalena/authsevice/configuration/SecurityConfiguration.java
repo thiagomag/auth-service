@@ -1,4 +1,4 @@
-package br.com.thiago.cadastrousuarios.configuration;
+package br.com.thiagomagdalena.authsevice.configuration;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;

@@ -1,8 +1,8 @@
-package br.com.thiago.cadastrousuarios.service;
+package br.com.thiagomagdalena.authsevice.service;
 
-import br.com.thiago.cadastrousuarios.entity.User;
-import br.com.thiago.cadastrousuarios.entity.UserDetailsImpl;
-import br.com.thiago.cadastrousuarios.repository.UserRepository;
+import br.com.thiagomagdalena.authsevice.entity.User;
+import br.com.thiagomagdalena.authsevice.entity.UserDetailsImpl;
+import br.com.thiagomagdalena.authsevice.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

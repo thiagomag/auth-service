@@ -1,6 +1,6 @@
-package br.com.thiago.cadastrousuarios.repository;
+package br.com.thiagomagdalena.authsevice.repository;
 
-import br.com.thiago.cadastrousuarios.entity.User;
+import br.com.thiagomagdalena.authsevice.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

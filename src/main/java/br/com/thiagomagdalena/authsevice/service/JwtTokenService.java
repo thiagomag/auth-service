@@ -1,6 +1,6 @@
-package br.com.thiago.cadastrousuarios.service;
+package br.com.thiagomagdalena.authsevice.service;
 
-import br.com.thiago.cadastrousuarios.entity.UserDetailsImpl;
+import br.com.thiagomagdalena.authsevice.entity.UserDetailsImpl;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.JWTCreationException;

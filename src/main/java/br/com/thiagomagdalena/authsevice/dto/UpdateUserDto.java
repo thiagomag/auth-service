@@ -1,8 +1,4 @@
-package br.com.thiago.cadastrousuarios.dto;
-
-import br.com.thiago.cadastrousuarios.enums.RoleName;
-
-import java.util.List;
+package br.com.thiagomagdalena.authsevice.dto;
 
 public record UpdateUserDto(
 

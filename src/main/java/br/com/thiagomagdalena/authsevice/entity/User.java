@@ -1,4 +1,4 @@
-package br.com.thiago.cadastrousuarios.entity;
+package br.com.thiagomagdalena.authsevice.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

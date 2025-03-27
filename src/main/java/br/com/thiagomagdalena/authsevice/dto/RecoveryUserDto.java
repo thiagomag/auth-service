@@ -1,6 +1,6 @@
-package br.com.thiago.cadastrousuarios.dto;
+package br.com.thiagomagdalena.authsevice.dto;
 
-import br.com.thiago.cadastrousuarios.entity.Role;
+import br.com.thiagomagdalena.authsevice.entity.Role;
 
 import java.util.List;
 

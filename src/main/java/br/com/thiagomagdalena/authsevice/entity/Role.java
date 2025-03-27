@@ -1,6 +1,6 @@
-package br.com.thiago.cadastrousuarios.entity;
+package br.com.thiagomagdalena.authsevice.entity;
 
-import br.com.thiago.cadastrousuarios.enums.RoleName;
+import br.com.thiagomagdalena.authsevice.enums.RoleName;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

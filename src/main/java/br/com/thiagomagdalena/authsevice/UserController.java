@@ -1,7 +1,7 @@
-package br.com.thiago.cadastrousuarios;
+package br.com.thiagomagdalena.authsevice;
 
-import br.com.thiago.cadastrousuarios.dto.*;
-import br.com.thiago.cadastrousuarios.service.UserService;
+import br.com.thiagomagdalena.authsevice.dto.*;
+import br.com.thiagomagdalena.authsevice.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

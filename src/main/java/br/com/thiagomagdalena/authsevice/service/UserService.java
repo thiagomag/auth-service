@@ -1,14 +1,13 @@
-package br.com.thiago.cadastrousuarios.service;
+package br.com.thiagomagdalena.authsevice.service;
 
-import br.com.thiago.cadastrousuarios.UserController;
-import br.com.thiago.cadastrousuarios.configuration.SecurityConfiguration;
-import br.com.thiago.cadastrousuarios.dto.*;
-import br.com.thiago.cadastrousuarios.entity.Role;
-import br.com.thiago.cadastrousuarios.entity.User;
-import br.com.thiago.cadastrousuarios.entity.UserDetailsImpl;
-import br.com.thiago.cadastrousuarios.enums.RoleName;
-import br.com.thiago.cadastrousuarios.repository.RoleRepository;
-import br.com.thiago.cadastrousuarios.repository.UserRepository;
+import br.com.thiagomagdalena.authsevice.configuration.SecurityConfiguration;
+import br.com.thiagomagdalena.authsevice.dto.*;
+import br.com.thiagomagdalena.authsevice.entity.Role;
+import br.com.thiagomagdalena.authsevice.entity.User;
+import br.com.thiagomagdalena.authsevice.entity.UserDetailsImpl;
+import br.com.thiagomagdalena.authsevice.enums.RoleName;
+import br.com.thiagomagdalena.authsevice.repository.RoleRepository;
+import br.com.thiagomagdalena.authsevice.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

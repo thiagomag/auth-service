@@ -1,6 +1,6 @@
-package br.com.thiago.cadastrousuarios.dto;
+package br.com.thiagomagdalena.authsevice.dto;
 
-import br.com.thiago.cadastrousuarios.entity.Role;
+import br.com.thiagomagdalena.authsevice.entity.Role;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;

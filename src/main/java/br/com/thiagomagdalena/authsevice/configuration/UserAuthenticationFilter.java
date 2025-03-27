@@ -1,8 +1,8 @@
-package br.com.thiago.cadastrousuarios.configuration;
+package br.com.thiagomagdalena.authsevice.configuration;
 
-import br.com.thiago.cadastrousuarios.entity.UserDetailsImpl;
-import br.com.thiago.cadastrousuarios.repository.UserRepository;
-import br.com.thiago.cadastrousuarios.service.JwtTokenService;
+import br.com.thiagomagdalena.authsevice.entity.UserDetailsImpl;
+import br.com.thiagomagdalena.authsevice.repository.UserRepository;
+import br.com.thiagomagdalena.authsevice.service.JwtTokenService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

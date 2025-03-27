@@ -1,4 +1,4 @@
-package br.com.thiago.cadastrousuarios;
+package br.com.thiagomagdalena.authsevice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

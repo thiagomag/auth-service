@@ -1,4 +1,4 @@
-package br.com.thiago.cadastrousuarios.entity;
+package br.com.thiagomagdalena.authsevice.entity;
 
 import lombok.Getter;
 import org.springframework.security.core.GrantedAuthority;
@@ -8,14 +8,10 @@ import org.springframework.security.core.userdetails.UserDetails;
 import java.util.Collection;
 import java.util.stream.Collectors;
 
-@Getter
-public class UserDetailsImpl implements UserDetails {
-
-    private User user; // Classe de usuário que criamos anteriormente
-
-    public UserDetailsImpl(User user) {
-        this.user = user;
-    }
+/**
+ * @param user Classe de usuário que criamos anteriormente
+ */
+public record UserDetailsImpl(User user) implements UserDetails {
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {

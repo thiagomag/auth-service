@@ -1,4 +1,4 @@
-package br.com.thiago.cadastrousuarios;
+package br.com.thiagomagdalena.authsevice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
